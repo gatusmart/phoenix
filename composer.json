@@ -5,19 +5,26 @@
     "type": "project",
     "homepage": "https://laraone.com",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gatusmart/themes"
+        }
+    ],
     "require": {
         "php": ">=7.1.3",
         "doctrine/dbal": "^2.6.3",
         "fideloper/proxy": "~4.0",
         "guzzlehttp/guzzle": "^6.3",
         "intervention/image": "2.5.0",
-        "laraone/themes": "^1.0.0",
-        "laravel/framework": "5.7.*",
+        "laraone/themes": "dev-dev-5.8",
+        "laravel/framework": "5.8.*",
         "laravel/tinker": "~1.0",
         "mews/purifier": "2.1.4",
-        "santigarcor/laratrust": "5.0.*",
+        "santigarcor/laratrust": "5.2.*",
         "silber/page-cache": "^1.0",
-        "tightenco/ziggy": "0.6.9"
+        "tightenco/ziggy": "0.6.9",
+        "rinvex/laravel-bookings": "v2.1.1"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
